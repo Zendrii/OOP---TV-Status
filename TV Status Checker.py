@@ -7,7 +7,7 @@ class TV:
         self.channelTwo = channelTwo
         self.volumeTwo = volumeTwo
     
-    # Create Behaviors/Staements
+    # Create Behaviors/Statements
     def getChannel(self):
         print("TV1's channel is ", self.channel)
     def getVolume(self):
@@ -17,5 +17,8 @@ class TV:
         print("TV2's channel is ", self.channelTwo)
     def getVolume2(self):
         print(' and volume level is ', self.volumeTwo)
+        
 # Create Objects for created class
+TV1 = TV('30', '3')
+TV2 = TV('0', '0', '3', '2')
 # Call methods for output
