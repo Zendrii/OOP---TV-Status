@@ -21,9 +21,8 @@ class TV:
 
 # Create Objects for created class
 TV1 = TV('30', '3', '0', '0')
+TV2 = TV('0', '0', '3', '2')
+
 # Call methods for output
 TV1.getChannel, TV1.getVolume
-# Create Objects for created class
-TV2 = TV('0', '0', '3', '2')
-# Call methods for output
 TV2.getChannel2, TV2.getVolume2
