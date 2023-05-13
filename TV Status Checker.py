@@ -8,13 +8,13 @@ class TV:
     
     # Create Behaviors/Statements
     def getChannel(self):
-        print("'s channel is ", self.channel)
+        print(self.tv, "'s channel is ", self.channel)
     def getVolume(self):
         print(' and volume level is ', self.volume)
 
 # Create Objects for created class
-TV1 = TV('30', '3', '0', '0')
-TV2 = TV('0', '0', '3', '2')
+TV1 = TV('tv1', '30', '3')
+TV2 = TV('tv2', '3', '2')
 
 # Call methods for output
 TV1.getChannel, TV1.getVolume
