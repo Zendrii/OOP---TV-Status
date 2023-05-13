@@ -27,3 +27,5 @@ def TestTV():
     TV2 = TV('0', '0', '3', '2')
     # Call methods for output
     TV2.getChannel2, TV2.getVolume2
+
+TestTV()
