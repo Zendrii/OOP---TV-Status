@@ -30,8 +30,16 @@ class TV:
 
     def channelUp(self):
         channel_change = self.channel + 1
-        print('You have changed the channel to', channel_change)
+        print('Channel:', channel_change)
 
     def channelDown(self):
         channel_change2 = self.channel - 1
-        print('You have changed the channel to', channel_change2)
+        print('Channel:', channel_change2)
+
+    def volumeUp(self):
+        volume_change = self.volume + 1
+        print('Volume:', volume_change)
+    
+    def volumeDown(self):
+        volume_change2 = self.volume - 1
+        print('volume:', volume_change2)
